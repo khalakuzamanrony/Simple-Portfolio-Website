@@ -1,0 +1,169 @@
+// Tablet
+@media(max-width:800px) {
+    .header-home {
+        height: 30rem;
+
+        &-content {
+            padding-top: 5rem;
+
+        }
+    }
+}
+
+@media(max-width:500px) {
+
+    // Navbar
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+
+        li {
+            padding: 1rem;
+        }
+    }
+
+    .header {
+        &-home {
+            height: auto;
+            padding-bottom: 1rem;
+
+            .header-content {
+                padding-top: 5rem;
+
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        &-inner {
+            height: auto;
+        }
+
+    }
+
+    // HomePage
+    .home {
+        &-a {
+            .specials {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        &-b {
+            .stats {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        &-c {
+            .process {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+    // About 
+    .about {
+        &-info {
+            grid-template-areas:
+                'b-image'
+                'b'
+                'b'
+                'aw1'
+                'aw2'
+                'aw3'
+            ;
+        }
+
+        &-c {
+
+            display: none;
+
+        }
+
+        &-d {
+            .testimonials {
+                grid-template-columns: 1fr;
+                grid-gap: 1rem;
+            }
+        }
+    }
+
+    // Work
+    .items {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+
+    // Contact
+    .contact {
+        &-a {
+            .text-fields {
+                grid-template-areas:
+                    'name'
+                    'email'
+                    'sub'
+                    'phone'
+                    'msg'
+                ;
+            }
+        }
+
+        &-b {
+            .contact-info {
+                grid-template-columns: 1fr;
+                grid-gap: 2rem;
+            }
+
+            div {
+                margin-bottom: 1rem;
+                padding-bottom: 1rem;
+                border-bottom: .5px dotted #fff;
+
+                &:last-child {
+                    border-bottom: none
+                }
+            }
+
+        }
+
+        &-c {
+            h1 {
+                font-size: 2rem;
+            }
+        }
+
+    }
+
+    // Footer
+    .footer {
+        height: 7rem;
+
+        .footer-content {
+            padding: 1rem;
+            flex-direction: column;
+
+        }
+    }
+}
+
+// Lendscape
+@media(max-height:580px)
+{
+    .heade-home{
+        .header-content{
+            padding-top: 3rem;
+        }
+    }
+}
+@media(max-height:330px)
+{
+    .heade-home{
+        .header-content{
+            h1{
+                font-size: 2rem;
+            }
+        }
+    }
+}
