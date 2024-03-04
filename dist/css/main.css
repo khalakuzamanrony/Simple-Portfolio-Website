@@ -143,12 +143,12 @@ img {
       border-color: #ffbc00; }
 
 .header-inner {
-  background: url("/dist/img/showcase.jpg") no-repeat 20% 30%/cover;
+  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #ffbc00; }
 
 .header-home {
-  background: url("/dist/img/showcase.jpg") no-repeat center right/cover;
+  background: url("../img/showcase.jpg") no-repeat center right/cover;
   height: 100vh;
   border-color: 3px solid #ffbc00; }
   .header-home .header-content {
