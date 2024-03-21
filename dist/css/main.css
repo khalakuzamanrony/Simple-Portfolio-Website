@@ -89,6 +89,9 @@ input[class^='btn-']:hover {
   text-align: center;
   font-weight: 100;
   text-transform: uppercase; }
+  .x{
+    font-weight: 400;
+  }
 
 * {
   margin: 0;
@@ -150,10 +153,10 @@ img {
 .header-home {
   background: url("../img/showcase.jpg") no-repeat center right/cover;
   height: 100vh;
-  border-color: 3px solid #ffbc00; }
+  }
   .header-home .header-content {
     text-align: center;
-    padding-top: 7%;
+    padding-top: 20%;
     color: #fff; }
     .header-home .header-content h1 {
       font-size: 4rem;
@@ -173,7 +176,7 @@ img {
 
 .home-b .stats {
   display: grid;
-  grid-gap: 1rem;
+ 
   grid-template-columns: repeat(4, 1fr); }
   .home-b .stats li {
     line-height: 2; }
@@ -227,7 +230,8 @@ img {
 
 .about-info {
   display: grid;
-  grid-template-areas: 'b-image b b' 'aw1 aw2 aw3';
+  grid-template-areas: 'b-image b b'
+ 'aw1 aw2 aw3';
   grid-gap: 1.2rem; }
   .about-info .bio-image {
     grid-area: b-image; }
@@ -252,7 +256,7 @@ img {
   height: 20px;
   background-color: #ccc;
   border-radius: 5px;
-  margin-bottom: 0.3rem; }
+  margin-bottom: 0.6rem; }
   .about-b .progress div {
     background-color: #ffbc00;
     height: 20px;
@@ -362,7 +366,9 @@ img {
 
 .contact-a .text-fields {
   display: grid;
-  grid-template-areas: 'name email' 'sub phone' 'msg msg';
+  grid-template-areas: 'name email'
+ 'sub phone'
+ 'msg msg';
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   .contact-a .text-fields .name-input {
@@ -439,7 +445,12 @@ img {
   .home-c .process {
     grid-template-columns: 1fr; }
   .about-info {
-    grid-template-areas: 'b-image' 'b' 'b' 'aw1' 'aw2' 'aw3'; }
+    grid-template-areas: 'b-image'
+ 'b'
+ 'b'
+ 'aw1'
+ 'aw2'
+ 'aw3'; }
   .about-c {
     display: none; }
   .about-d .testimonials {
@@ -449,7 +460,11 @@ img {
     grid-template-columns: 1fr;
     grid-gap: 1rem; }
   .contact-a .text-fields {
-    grid-template-areas: 'name' 'email' 'sub' 'phone' 'msg'; }
+    grid-template-areas: 'name'
+ 'email'
+ 'sub'
+ 'phone'
+ 'msg'; }
   .contact-b .contact-info {
     grid-template-columns: 1fr;
     grid-gap: 2rem; }
